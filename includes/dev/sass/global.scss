@@ -1,0 +1,39 @@
+/* Global Styles */
+html {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+img{
+	display: block;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.wrapper{
+	display: block;
+	width: 100%;
+	background: #EFEFEF;
+}
+
+.container{
+	display: block;
+	margin: 0px auto;
+	width: 100%;
+	background: #DDDDDD;
+}
+
+h1{
+	color: blue;
+}

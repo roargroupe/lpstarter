@@ -1,0 +1,15 @@
+@import "normalize";
+@import "fonts";
+@import "colors";
+@import "mixins";
+@import "global";
+    
+@media (min-device-width: 767px) and (min-width: 767px), (max-device-width: 800px) and (min-width: 767px) and (orientation: landscape){
+  @import "narrow";
+}
+@media (min-device-width: 960px) and (min-width: 960px){ 
+  @import "normal";
+}
+@media (min-width: 1220px){ 
+  @import "normal";
+}  
